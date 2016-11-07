@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltcode.AkkaNetSamples.Common", "Common\Voltcode.AkkaNetSamples.Common\Voltcode.AkkaNetSamples.Common.csproj", "{ED8D4B40-67B0-4851-AC37-18578813C62D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltcode.AkkaNetSamples.SampleLocal", "LocalSamples\Voltcode.AkkaNetSamples.SampleLocal\Voltcode.AkkaNetSamples.SampleLocal.csproj", "{0FE1217F-C4DE-4BB8-9C28-460840B35816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltcode.AkkaNetSamples.SampleSupervision", "LocalSamples\Voltcode.AkkaNetSamples.SampleSupervision\Voltcode.AkkaNetSamples.SampleSupervision.csproj", "{77B6D108-AF71-4E32-AA14-BEA304F6FDB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltcode.AkkaNetSamples.SampleRouting", "LocalSamples\Voltcode.AkkaNetSamples.SampleRouting\Voltcode.AkkaNetSamples.SampleRouting.csproj", "{C48216E0-9CF2-419B-910A-C2AD0BAFC4C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltcode.AkkaNetSamples.SampleRemote.JediCouncil", "RemoteSamples\Voltcode.AkkaNetSamples.SampleRemote.JediCouncil\Voltcode.AkkaNetSamples.SampleRemote.JediCouncil.csproj", "{9922F05E-4927-43F1-8A5D-38FB08F1CBCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltcode.AkkaNetSamples.SampleRemote.Naboo", "RemoteSamples\Voltcode.AkkaNetSamples.SampleRemote.Naboo\Voltcode.AkkaNetSamples.SampleRemote.Naboo.csproj", "{0DFF08A5-9EDA-4F3A-AF9F-7F36E0F829B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RemoteSamples", "RemoteSamples", "{7731D78C-BCB8-453E-A79E-5EFD4DC1E0F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LocalSamples", "LocalSamples", "{6B7B8F34-D705-4926-9E5F-E1F4D69FF9FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E121CDEC-7C79-4C2E-912E-91E074AB6DC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Streams", "Streams", "{402A5804-7389-436F-8582-EC23407090C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltcode.AkkaNetSamples.SampleStream", "Streams\Voltcode.AkkaNetSamples.SampleStream\Voltcode.AkkaNetSamples.SampleStream.csproj", "{3ED638AE-6C57-4E38-B6FD-8C4DBA43CC75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestKit", "TestKit", "{AEB6F844-2A08-4220-9302-2142520B7661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltcode.AkkaNetSamples.SampleTest", "TestKit\Voltcode.AkkaNetSamples.SampleTest\Voltcode.AkkaNetSamples.SampleTest.csproj", "{D6F22214-3F9B-4176-A09D-B38FC832EED4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cluster", "Cluster", "{FF49E37E-9D4D-4267-ACA0-B579E196C8DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltcode.AkkaNetSamples.SampleCluster.TieFighter", "Cluster\Voltcode.AkkaNetSamples.SampleCluster.TieFighter\Voltcode.AkkaNetSamples.SampleCluster.TieFighter.csproj", "{C2FC2918-C40E-4E97-9FFA-BD38D80EF139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltcode.AkkaNetSamples.SampleCluster.Battleship", "Cluster\Voltcode.AkkaNetSamples.SampleCluster.BattleShip\Voltcode.AkkaNetSamples.SampleCluster.Battleship.csproj", "{ABB6DE6A-AA37-42F5-BC49-836ACA85E6EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3784523C-15E6-47B1-8FF6-3FBEF080404F}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED8D4B40-67B0-4851-AC37-18578813C62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8D4B40-67B0-4851-AC37-18578813C62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8D4B40-67B0-4851-AC37-18578813C62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8D4B40-67B0-4851-AC37-18578813C62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE1217F-C4DE-4BB8-9C28-460840B35816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE1217F-C4DE-4BB8-9C28-460840B35816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE1217F-C4DE-4BB8-9C28-460840B35816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE1217F-C4DE-4BB8-9C28-460840B35816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B6D108-AF71-4E32-AA14-BEA304F6FDB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B6D108-AF71-4E32-AA14-BEA304F6FDB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B6D108-AF71-4E32-AA14-BEA304F6FDB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B6D108-AF71-4E32-AA14-BEA304F6FDB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48216E0-9CF2-419B-910A-C2AD0BAFC4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48216E0-9CF2-419B-910A-C2AD0BAFC4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48216E0-9CF2-419B-910A-C2AD0BAFC4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48216E0-9CF2-419B-910A-C2AD0BAFC4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9922F05E-4927-43F1-8A5D-38FB08F1CBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9922F05E-4927-43F1-8A5D-38FB08F1CBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9922F05E-4927-43F1-8A5D-38FB08F1CBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9922F05E-4927-43F1-8A5D-38FB08F1CBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFF08A5-9EDA-4F3A-AF9F-7F36E0F829B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFF08A5-9EDA-4F3A-AF9F-7F36E0F829B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFF08A5-9EDA-4F3A-AF9F-7F36E0F829B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFF08A5-9EDA-4F3A-AF9F-7F36E0F829B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED638AE-6C57-4E38-B6FD-8C4DBA43CC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED638AE-6C57-4E38-B6FD-8C4DBA43CC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED638AE-6C57-4E38-B6FD-8C4DBA43CC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED638AE-6C57-4E38-B6FD-8C4DBA43CC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F22214-3F9B-4176-A09D-B38FC832EED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F22214-3F9B-4176-A09D-B38FC832EED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F22214-3F9B-4176-A09D-B38FC832EED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F22214-3F9B-4176-A09D-B38FC832EED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2FC2918-C40E-4E97-9FFA-BD38D80EF139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FC2918-C40E-4E97-9FFA-BD38D80EF139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FC2918-C40E-4E97-9FFA-BD38D80EF139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FC2918-C40E-4E97-9FFA-BD38D80EF139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB6DE6A-AA37-42F5-BC49-836ACA85E6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB6DE6A-AA37-42F5-BC49-836ACA85E6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB6DE6A-AA37-42F5-BC49-836ACA85E6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB6DE6A-AA37-42F5-BC49-836ACA85E6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED8D4B40-67B0-4851-AC37-18578813C62D} = {E121CDEC-7C79-4C2E-912E-91E074AB6DC4}
+		{0FE1217F-C4DE-4BB8-9C28-460840B35816} = {6B7B8F34-D705-4926-9E5F-E1F4D69FF9FC}
+		{77B6D108-AF71-4E32-AA14-BEA304F6FDB2} = {6B7B8F34-D705-4926-9E5F-E1F4D69FF9FC}
+		{C48216E0-9CF2-419B-910A-C2AD0BAFC4C3} = {6B7B8F34-D705-4926-9E5F-E1F4D69FF9FC}
+		{9922F05E-4927-43F1-8A5D-38FB08F1CBCD} = {7731D78C-BCB8-453E-A79E-5EFD4DC1E0F9}
+		{0DFF08A5-9EDA-4F3A-AF9F-7F36E0F829B0} = {7731D78C-BCB8-453E-A79E-5EFD4DC1E0F9}
+		{3ED638AE-6C57-4E38-B6FD-8C4DBA43CC75} = {402A5804-7389-436F-8582-EC23407090C9}
+		{D6F22214-3F9B-4176-A09D-B38FC832EED4} = {AEB6F844-2A08-4220-9302-2142520B7661}
+		{C2FC2918-C40E-4E97-9FFA-BD38D80EF139} = {FF49E37E-9D4D-4267-ACA0-B579E196C8DC}
+		{ABB6DE6A-AA37-42F5-BC49-836ACA85E6EE} = {FF49E37E-9D4D-4267-ACA0-B579E196C8DC}
+	EndGlobalSection
+EndGlobal
