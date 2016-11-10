@@ -12,7 +12,7 @@ This sample is designed to be the first to look at for a person that has never w
 
 ### Story
 
-Anakin begets Luke. Some time later, he receives the typical Sith calling - "Come to the dark side". Anakin falls for it and becoms Darth Vader.
+Anakin begets Luke. Some time later, he receives the Sith calling - "Come to the dark side". Anakin falls for it and becoms Darth Vader.
 As Darth Vader, he tells Luke that he is his real father. Luke cannot accept the truth.
 
 ### How to run the sample
@@ -40,9 +40,9 @@ To facilitate story development, Scheduler (in Program.cs) is used to first send
 
 ### More information
 
-The entire "Working with Actors" section [http://getakka.net/docs/#working-with-actors]
+[The entire "Working with Actors" section](http://getakka.net/docs/#working-with-actors)
 
-Apart from creating actors, this sample presents on "Become" mechanism [http://getakka.net/docs/working-with-actors/Switchable%20Behaviors]
+[Apart from creating actors, this sample presents on "Become" mechanism](http://getakka.net/docs/working-with-actors/Switchable%20Behaviors)
 
 ## Routing (SampleRouting)
 
@@ -81,7 +81,8 @@ After user presses a key twice, new Imperial Commander is created. This time usi
 
 ### More information
 
-To further investigate Akka.NET routing capabilities, study Routers link [http://getakka.net/docs/working-with-actors/Routers].
+[To further investigate Akka.NET routing capabilities, study Routers entry](http://getakka.net/docs/working-with-actors/Routers)
+
 Routers are a very important feature of Akka.NET and can be used without hassle with Remote and Cluster modules. 
 
 ## Supervision (SampleSupervision)
@@ -115,4 +116,4 @@ RandomJedi receives a Terminated system message, because he was Watching the Dro
 
 ### More information
 
-More on Supervision [http://getakka.net/docs/concepts/supervision]
+[More on Supervision](http://getakka.net/docs/concepts/supervision)
