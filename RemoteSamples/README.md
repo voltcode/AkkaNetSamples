@@ -13,7 +13,8 @@ and he replies that Amidala is safe.
 
 ## Technical explanation
 
-There are two executables that form remote link in this sample
+There are two executables that form remote link in this sample:
+
 1. Naboo serves purely as a host for Qui Gon, who is deployed using remote deployment (does not start on Naboo when it is run)
 2. JediCouncil initiates communication with Naboo, first by deploying Qui Gon ,then by telling him to report. Qui Gon responds successfuly upon request.
 
@@ -37,5 +38,5 @@ The most important thing in this sample is that all Akka features work the same 
 
 Please refer to the Akka.Remote docs, especially:
 
-More on remote configuration: [http://getakka.net/docs/remoting/#how-to-form-associations-between-remote-systems]
-Remote Actor deployment: [http://getakka.net/docs/remoting/deployment]
+[More on remote configuration](http://getakka.net/docs/remoting/#how-to-form-associations-between-remote-systems)
+[Remote Actor deployment](http://getakka.net/docs/remoting/deployment)
