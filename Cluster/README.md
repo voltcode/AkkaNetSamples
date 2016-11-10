@@ -14,14 +14,15 @@ Not very inventive, but what would you expect from imperial soldiers.
 
 ## Technical explanation
 
-There are two projects that form the cluster. 
+There are two node types that form the cluster. 
+
 1. The battleship is the cluster's seed node. It is the node to which other nodes join.
 2. Tie fighter is a non-seed node.
 
 The cluster is configured (App.config) to require a minimum of 3 tie-fighters in addition to the battleship to be formed.
 
 Another aspect of this sample is that routing is enabled. The battleship sits on different node than 
-tie fighters and is able to route messages to them without much extra hassle.
+tie fighters and is able to route messages to them without extra hassle.
 
 ### Actors
 
@@ -37,6 +38,8 @@ tie fighters and is able to route messages to them without much extra hassle.
 
 Please refer to the Akka.Cluster docs, especially:
 
-More on cluster routing: [http://getakka.net/docs/clustering/cluster-routing]
-Types of nodes: [http://getakka.net/docs/clustering/cluster-overview#nodes]
-Per role minimum cluster size (at least 3 tie fighters): [http://getakka.net/docs/clustering/cluster-configuration#per-role-minimum-size]
+[More on cluster routing](http://getakka.net/docs/clustering/cluster-routing)
+[Types of nodes in a cluster](http://getakka.net/docs/clustering/cluster-overview#nodes)
+[How to set a minimum cluster size (at least 3 tie fighters)](http://getakka.net/docs/clustering/cluster-configuration#per-role-minimum-size)
+
+To learn more about routing see LocalSamples.
