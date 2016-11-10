@@ -22,8 +22,7 @@ namespace Voltcode.AkkaNetSamples.Common.Actors
         protected override void PostRestart(Exception reason)
         {
             base.PostRestart(reason);
-            Console.WriteLine("DROID RESTARTED");
-            //Context.ActorSelection("/user/Jedi").Tell(new HeyWatchMe());
+            Console.WriteLine("DROID RESTARTED");           
         }
 
         public void Handle(IamYourFather message)
@@ -35,7 +34,9 @@ namespace Voltcode.AkkaNetSamples.Common.Actors
         {
             Console.WriteLine("OK! Crashing now!");
             Self.GracefulStop(TimeSpan.FromMilliseconds(100));
-            //throw new Exception();
+            // replacing GracefulStop with the below line (throw new Exception) will cause the actor to restart. 
+            // Terminated message would not be triggered.
+            //throw new Exception(); 
         }
     }
 }

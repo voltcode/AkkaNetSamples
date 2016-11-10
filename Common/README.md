@@ -1,0 +1,1 @@
+This project contains common definitions of Actors and Messages used in all samples.

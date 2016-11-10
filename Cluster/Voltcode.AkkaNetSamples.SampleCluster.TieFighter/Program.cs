@@ -9,6 +9,7 @@ namespace Voltcode.AkkaNetSamples.SampleCluster.TieFighter
         {
             ActorSystem actorSystem = ActorSystem.Create("Empire");
 
+            // this tie fighter will be later commanded by the battleship
             actorSystem.ActorOf<Common.Actors.TieFighter>("tiefighter");
             
             Console.ReadKey();

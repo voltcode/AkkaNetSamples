@@ -23,6 +23,16 @@ The cluster is configured (App.config) to require a minimum of 3 tie-fighters in
 Another aspect of this sample is that routing is enabled. The battleship sits on different node than 
 tie fighters and is able to route messages to them without much extra hassle.
 
+### Actors
+
+* Battleship
+* Tiefighter
+
+### Messages
+
+* TurnLeft
+* TurnRight
+
 ## More information
 
 Please refer to the Akka.Cluster docs, especially:
