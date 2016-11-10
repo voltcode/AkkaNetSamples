@@ -111,7 +111,7 @@ RandomJedi receives a Terminated system message, because he was Watching the Dro
 
 #### Messages
 
-* HeyWatchMessage
+* HeyWatchMe
 * Terminated (system message)
 
 ### More information
